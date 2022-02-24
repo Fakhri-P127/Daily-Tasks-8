@@ -18,7 +18,7 @@ namespace Daily_Tasks_8
             Age = age;
         }
 
-        #region Loop ile Fullname
+        #region Loop ile CheckFullname
         public static bool CheckFullname(string fullname)
         {
             bool notAllLower1 = false;
@@ -67,7 +67,7 @@ namespace Daily_Tasks_8
         }
         #endregion
 
-        #region Regex ile Fullname
+        #region Regex ile CheckFullname
         //public static bool CheckFullname(string fullname)
         //{
         //    if (Regex.IsMatch(fullname, "^[A-Z]{1}[a-z]+( )+[A-Z]{1}[a-z]+$"))
@@ -82,7 +82,7 @@ namespace Daily_Tasks_8
         //}
         #endregion
 
-        #region Loop ile GroupNo
+        #region Loop ile CheckGroupNo
         public static bool CheckGroupNo(string groupno)
         {
             bool NotDigit = false;
@@ -113,7 +113,7 @@ namespace Daily_Tasks_8
         }
         #endregion
 
-        #region Sade yolla GroupNo
+        #region Sade yolla CheckGroupNo
 
         //public static bool CheckGroupNo(string groupno)
         //{
@@ -129,7 +129,7 @@ namespace Daily_Tasks_8
         //}
         #endregion
 
-        #region Regex ile GroupNo
+        #region Regex ile CheckGroupNo
         //public static bool CheckGroupNo(string groupno)
         //{
         //    if (Regex.IsMatch(groupno, "^[A-Z]{1}[0-9]{3}$"))
